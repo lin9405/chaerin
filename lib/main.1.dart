@@ -1,4 +1,6 @@
+/*
 import 'package:flutter/material.dart';
+
 //import './mainPage.dart';
 import './Dialogs.dart';
 import 'menu.dart';
@@ -153,12 +155,15 @@ class MyApp2 extends StatelessWidget {
  } 
 }
 
- /*
-   return new MaterialApp(
-     title: "",
-     home: MainPage()
-   );
- } 
-}
 
-*/
+//   return new MaterialApp(
+//     title: "",
+//     home: MainPage()
+ //  );
+// }
+//}
+
+
+
+
+ */

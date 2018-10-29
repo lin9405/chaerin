@@ -1,3 +1,7 @@
+
+/*
+
+
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'dart:io';
@@ -134,23 +138,6 @@ class _RegisterPageState extends State<RegisterPage> {
 
      SizedBox(height: 10.0),
 
-    /* new TextFormField(
-      //keyboardType: TextInputType.emailAddress,
-      // autofocus: true,
-      //initialValue: 'alucrd@gamail.com',
-      
-      decoration: InputDecoration(
-        hintText: 'ID',
-        contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
-        border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(32.0)
-        ),
-      ),
-      validator: (value) =>value.isEmpty ? 'ID can\'t be enpty':null,
-      onSaved: (value) =>_id =value,
-     ),
-
-     SizedBox(height: 10.0),*/
 
      new TextFormField(
       //keyboardType: TextInputType.emailAddress,
@@ -252,5 +239,8 @@ Future<bool> confirmDialog1(){
   }
 
   }
+
+
+  */
 
 
