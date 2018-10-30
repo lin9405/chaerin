@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/*
+
 import 'package:flutter/material.dart';
 // Comment out lines 7 and 10 to suppress the visual layout at runtime.
 import 'package:flutter/rendering.dart' show debugPaintSizeEnabled;
@@ -267,4 +267,3 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-*/

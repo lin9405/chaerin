@@ -1,4 +1,7 @@
-/*import 'package:flutter/material.dart';
+
+
+/*
+import 'package:flutter/material.dart';
 import 'login_page.dart';
 
 void main()=> runApp(MyApp());
@@ -17,7 +20,6 @@ Widget build(BuildContext context){
      );
   }
 }
-
 */
 
 //밑에코드는 내가 연결제대로 된건지 보려고 가져온코드 근데 되더군요!!!꺙아아아아아ㅏ앙 주석처리 해ㅔ놓은 코드가 원래 우리 코드입니다.
@@ -61,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return StreamBuilder<QuerySnapshot>(
       stream: Firestore.instance.collection('baby').snapshots(),
       builder: (context, snapshot) {
-        if (!snapshot.hasData) return LinearProgressIndicator();ㅡㅏ
+        if (!snapshot.hasData) return LinearProgressIndicator();
 
         return _buildList(context, snapshot.data.documents);
       },
@@ -121,4 +123,6 @@ class Record {
 
   @override
   String toString() => "Record<$name:$votes>";
-}햣
+}
+
+

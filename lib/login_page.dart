@@ -1,5 +1,5 @@
 
-/*
+
 import 'package:flutter/material.dart';
 import 'register_page.dart';
 import 'findPassword.dart';
@@ -227,4 +227,4 @@ class _LoginPageState extends State<LoginPage>{
 }
 
 
-*/
+

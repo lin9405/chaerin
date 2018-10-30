@@ -1,5 +1,5 @@
 
-/*
+
 import 'package:flutter/material.dart';
 
 import 'gloals.dart' as globals;
@@ -201,4 +201,3 @@ class _MenuPageState extends State<MenuPage> {
   }
 }
 
-*/
